@@ -132,6 +132,7 @@ ul button{
 .offer{
     background-color: #fff2f9;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .offerTop{
@@ -149,21 +150,19 @@ ul button{
 .offerBottom .cards .card-1{
     width: 30%;  
     background-color: white; 
-    border-top-left-radius: 20px; 
-    border-top-right-radius: 20px; 
+    border-radius: 20px; 
+    padding-bottom: 10px;
     
 }
 .offerBottom .cards .card-2{
     width: 30%;    
     background-color: white; 
-    border-top-left-radius: 20px; 
-    border-top-right-radius: 20px;
+    border-radius: 20px; 
 }
 .offerBottom .cards .card-3{
     width: 30%;    
     background-color: white; 
-    border-top-left-radius: 20px; 
-    border-top-right-radius: 20px;
+    border-radius: 20px; 
 }
 
 .card-1-bottom, .card-2-bottom, .card-3-bottom{
@@ -171,9 +170,60 @@ ul button{
     justify-content: space-around;
 }
 
+.offerTop{
+    padding-top: 40px;;
+}
+.offerTop h1{
+    color: #423f8d;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.offerTop p{
+    color: #423f8d;
+    line-height: 28px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
 
+.card-1 h3{
+    color: #423f8d;
+    margin: 10px;
+    font-size: larger;
+    font-family: cursive;
+}
 
+.card-text{
+    margin: 10px;
+    line-height: 28px;
+    color: #616161;
+}
 
+.card-footer{
+    color: #616161;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pink{
+    color: #ed078b;
+    font-family: cursive;
+}
+
+.yellow{
+    color: #FBCE0F;
+    font-family: cursive;
+}
+
+.blue{
+    color: #1F97D4;
+    font-family: cursive;
+}
 ::-webkit-scrollbar{
     width: 5px;
 }
