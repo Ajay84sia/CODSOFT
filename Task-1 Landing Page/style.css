@@ -4,17 +4,19 @@
 }
 
 .navbar{
+    z-index: 1;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     position: fixed;
+    background: white;
 }
 
 .nav2{
-    width: 50%;
+    width: 45%;
 }
 
 .nav2 ul{
@@ -23,4 +25,83 @@
     justify-content: space-around;
     text-align: center; 
     align-items: center;
+}
+
+.welcome{
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+    z-index: 0;
+}
+
+.top h1{
+    text-align: center;
+    margin: 15px;
+    color: #423f8d;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.top h1 span{
+    color: #ed078b;
+    
+}
+
+.top p{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    line-height: 30px;
+    color: #423f8d;
+    font-family: sans-serif;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.botom .right{
+    width: 50%;
+}
+
+.left-one, .left-two, .left-three{
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+
+.one-right, .two-right, .three-right{
+    padding: 20px 30px 20px 20px;
+}
+
+.one-right h4{
+    color: #1F97D4;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.two-right h4{
+    color: #FBCE0F;
+    font-family: cursive;
+    font-size: 20px;
+}
+.three-right h4{
+    color: #12D9DF;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.one-right p, .two-right p, .three-right p{
+    color: #4255A4;
+    font-family: sans-serif;
+}
+
+#two-childrens img{
+    width: 90%;
+    padding-top: 10px;
 }
