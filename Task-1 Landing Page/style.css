@@ -27,6 +27,29 @@
     align-items: center;
 }
 
+ul li{
+    color: #423f8d;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+}
+ul li:hover{
+    color: #ed078b;
+}
+
+ul button{
+    color: white;
+    border: none;
+    background-color: #12D9DF;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+}
+
 .welcome{
     padding-top: 100px;
     width: 80%;
@@ -104,4 +127,58 @@
 #two-childrens img{
     width: 90%;
     padding-top: 10px;
+}
+
+.offer{
+    background-color: #fff2f9;
+    width: 100%;
+}
+
+.offerTop{
+    text-align: center;
+}
+
+.offerBottom .cards{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin:auto;
+    
+}
+
+.offerBottom .cards .card-1{
+    width: 30%;  
+    background-color: white; 
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    
+}
+.offerBottom .cards .card-2{
+    width: 30%;    
+    background-color: white; 
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+}
+.offerBottom .cards .card-3{
+    width: 30%;    
+    background-color: white; 
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+}
+
+.card-1-bottom, .card-2-bottom, .card-3-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:#ed078b;
+    border-radius: 10px ;
 }
