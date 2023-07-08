@@ -262,6 +262,57 @@ hr{
     background-color: #ed078b;
 }
 
+.teacher{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.teacher-top{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.teacher-top h1{
+    color: #423f8d;
+    font-family: cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.teacher-top p{
+    color: #423f8d;
+    line-height: 28px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.teachers-card{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.teachers-card .teacher-1, .teacher-2, .teacher-3, .teacher-4{
+    width: 22%;
+    text-align: center;
+}
+
+.teachers-card h3{
+    margin: 8px;
+    font-family: cursive;
+    color: #302751;
+}
+
+.teachers-card p{
+    font-family: cursive;
+    color: #868686;
+}
+
+.teacher-4 img{
+    border-radius: 20px;
+}
+
 
 
 
