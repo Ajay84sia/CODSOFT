@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajay</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajay | Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <div id="headers">
+      <div class="container">
+        <nav id="nav-menu">
+          <h1 onclick="homePage()" style="color: white">
+            <span style="color: gold">A</span>jay
+          </h1>
+          <ul id="sidemenu">
+            <li>
+              <a onclick="closemenu()" class="nav-link home" href="#home"
+                >HOME</a
+              >
+            </li>
+            <li>
+              <a onclick="closemenu()" class="nav-link about" href="#about"
+                >ABOUT</a
+              >
+            </li>
+            <li>
+              <a onclick="closemenu()" class="nav-link skills" href="#skills"
+                >SKILLS</a
+              >
+            </li>
+            <li>
+              <a onclick="closemenu()" class="nav-link project" href="#project"
+                >PROJECTS</a
+              >
+            </li>
+            <li>
+              <a onclick="closemenu()" class="nav-link contact" href="#contact"
+                >CONTACT</a
+              >
+            </li>
+            <li class="nav-link resume" id="resume-button-1">
+              <a
+                id="resume-link-1"
+                class="resume"
+                href="Ajay_Resume.pdf"
+                download="Ajay_Resume"
+                target="_blank"
+                >RESUME</a
+              >
+            </li>
+
+            <i class="uil uil-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="uil uil-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Home -->
+
+    <!-- About -->
+
+    <!-- Skills -->
+
+    <!-- Projects -->
+
+    <!-- Github -->
+
+    <!-- Contact -->
+  </body>
 </html>
 <script src="./script.js"></script>
