@@ -195,6 +195,38 @@ nav ul li a :hover::after {
   font-size: 40px;
 }
 
+/* skills section.... */
+
+#skills_container {
+  width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+  display: grid;
+  text-align: center;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  padding: 35px 10rem;
+  background-color: rgb();
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.skills-card > img {
+  width: 60%;
+}
+#skills_i_have {
+  font-size: 230%;
+  text-align: center;
+  padding-top: 91px;
+  margin-bottom: 60px;
+}
+#skills {
+  margin-top: 10vh;
+}
+
+.skills-card-name{
+  font-size: larger;
+}
 
 
 /* ******* Media Queries ******* */
