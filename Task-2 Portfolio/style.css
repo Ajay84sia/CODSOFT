@@ -146,7 +146,6 @@ nav ul li a :hover::after {
   color: silver;
 }
 
-
 /* ------------------About---------------------------------- */
 
 #aboutheading {
@@ -165,12 +164,10 @@ nav ul li a :hover::after {
 }
 .about_container > div:nth-child(1) {
   width: 40%;
-
 }
 .about_container > div:nth-child(2) {
   width: 40%;
 }
-
 
 .about_section img {
   border-radius: 15px;
@@ -180,14 +177,12 @@ nav ul li a :hover::after {
 }
 
 .about_ex_projects {
- 
   display: flex;
   margin-top: 5vh;
   text-align: center;
   justify-content: space-evenly;
 }
 .about_ex_projects > div {
-
   padding: 10px;
 }
 
@@ -224,14 +219,14 @@ nav ul li a :hover::after {
   margin-top: 10vh;
 }
 
-.skills-card-name{
+.skills-card-name {
   font-size: larger;
 }
 
 /* Project section...... */
 
 .projectsection {
-  margin-top:10vh;
+  margin-top: 10vh;
 }
 
 .project_container {
@@ -277,7 +272,7 @@ nav ul li a :hover::after {
   text-align: center;
   align-items: center;
 }
-.project-github-link > i:hover{
+.project-github-link > i:hover {
   color: #8042bd;
 }
 #deployed_container {
@@ -320,11 +315,11 @@ nav ul li a :hover::after {
   cursor: pointer;
 }
 
-.project-deployed-link > button:hover{
+.project-deployed-link > button:hover {
   background-color: #0f4a8a;
 }
 
-.project-tech-stack>span {
+.project-tech-stack > span {
   color: #ff7a59;
 }
 #project_content {
@@ -336,9 +331,136 @@ nav ul li a :hover::after {
   padding-top: 5px;
 }
 
-
 .fa {
   color: white;
+}
+
+/* contact  */
+#contact {
+  width: 80%;
+  margin: auto;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-left {
+  flex-basis: 35%;
+}
+.contact-right {
+  flex-basis: 40%;
+  padding: 7px;
+}
+
+.contact-left p {
+  margin-top: 35px;
+}
+.contact-left p i {
+  color: white;
+  margin-top: 15px;
+  font-size: 25px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.social-icons a:hover {
+  /* color: #ffc107; */
+  transition: transformY(-5px);
+}
+
+.btn.btn2 {
+  display: inline-block;
+  background-color: navy;
+  color: white;
+  border: 5px solid transparent;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 3px;
+}
+.contact-right form {
+  width: 100%;
+}
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: 15px;
+  /* background-color: #262622; */
+  background-color: rgba(0, 0, 0, 0.3);
+
+  padding: 10px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+form .btn2 {
+  padding: 9px 39px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 11px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  width: inherit;
+}
+
+#msg {
+  color: rgb(235, 220, 8);
+  margin-top: -40px;
+  display: block;
+}
+
+#contact {
+  margin-bottom: 10vh;
+}
+
+#contact_text {
+  font-size: 230%;
+  text-align: center;
+  margin-bottom: 7vh;
+  padding-top: 83px;
+}
+#githubstats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 92%;
+  margin-top: 31px;
+}
+#githubstats > div > img {
+  width: 90%;
+}
+#github-top-langs {
+  width: 33%;
+}
+
+/* footer css */
+footer > p {
+  text-align: center;
+  color: blanchedalmond;
+  margin: 10px;
+}
+
+footer > p > a{
+  color: #00bafc;
+  text-decoration: none;
 }
 
 
@@ -347,14 +469,12 @@ nav ul li a :hover::after {
 nav .uil {
   display: none;
 }
-#nav-menu+h1{
+#nav-menu + h1 {
   cursor: pointer;
 }
-.social-icons{
+.social-icons {
   padding-left: 5px;
 }
-
-
 
 /* ******* Media Queries ******* */
 @media only screen and (max-width: 600px) {
