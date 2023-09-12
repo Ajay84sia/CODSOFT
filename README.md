@@ -6,7 +6,10 @@ Repository for CODSOFT WEB DEVELOPMENT INTERNSHIP
 
 <br>
 
-![image](https://github.com/Ajay84sia/CODSOFT/assets/98752820/a78c5714-b1e9-4f82-be2e-b8fdb3bd1bec)
+// ![image](https://github.com/Ajay84sia/CODSOFT/assets/98752820/a78c5714-b1e9-4f82-be2e-b8fdb3bd1bec)
+
+![image](https://github.com/Ajay84sia/CODSOFT/assets/98752820/72b0d037-3292-4e89-98c7-a28851dfaaed)
+
 
 <br>
 
