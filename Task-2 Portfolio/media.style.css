@@ -171,9 +171,6 @@
   i {
     font-size: small;
   }
-  #project_img {
-    /* height: 14vh; */
-  }
   .project-deployed-link > button {
     font-size: small;
   }
@@ -204,11 +201,16 @@
  .about_ex_projects{
   display: none;
  }
+
+
+
 }
 @media screen and (min-width: 711px) and (max-width: 1080px){
  .name{
   font-size: 2rem;
  }
+
+ 
 
 
  /* changes on 17/05/23 */
